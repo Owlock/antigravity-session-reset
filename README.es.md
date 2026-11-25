@@ -1,5 +1,8 @@
 # antigravity-session-reset
 
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20me-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/owlockgta)
+[![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/owlockgta)
+
 [English](README.md) · [Guía manual de SQLite](docs/sqlite-manual.md) · [Caso de Windows anonimizado](docs/case-study.es.md)
 
 Guía y herramienta local para cambiar de cuenta cuando Antigravity recuerda el correo anterior, repite el inicio de sesión o muestra Free después de elegir una cuenta con Pro. Comprueba primero en Google qué correo tiene la suscripción.
@@ -59,5 +62,16 @@ Los respaldos pueden contener datos de acceso reutilizables. Tras verificar la c
 ## Pruebas
 
 En la carpeta del repositorio, `python3 -B -m unittest discover -s tests -v` ejecuta las pruebas. Crean perfiles temporales, sustituyen el llavero por una simulación en memoria, bloquean el acceso nativo a credenciales y eliminan las carpetas de prueba. En Windows se probaron las dos variantes de borrado con Python 3.10 y 3.12. La validación en macOS y Linux sigue pendiente.
+
+## Apoya este trabajo
+
+Todo el contenido y el código de este repositorio son gratuitos y de código abierto. Si esta guía o herramienta te ahorró tiempo o evitó que perdieras tus espacios de trabajo locales:
+
+- **Ko-fi (Tarjetas / PayPal):** [ko-fi.com/owlockgta](https://ko-fi.com/owlockgta) *(0 % de comisión de plataforma)*
+- **PayPal:** [paypal.me/owlockgta](https://www.paypal.com/paypalme/owlockgta)
+- **Cripto (Binance Pay / USDT - sin comisiones de red):**
+  - **Pay ID / User ID:** `1111269376` (Receptor: `Owlock`)
+  - **Enlace directo en la app:** [app.binance.com/uni-qr/TBFvSGNT](https://app.binance.com/uni-qr/TBFvSGNT)
+- **Colombia (Bre-B / Transfiya / Nequi):** Escríbeme por DM en [Reddit](https://www.reddit.com/user/OwlockGta/) o [Instagram](https://www.instagram.com/owlockgta/) para transferencia directa en COP.
 
 Proyecto comunitario independiente de Google. [Licencia MIT](LICENSE).
