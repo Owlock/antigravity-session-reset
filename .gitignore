@@ -1,0 +1,72 @@
+# Credentials, private environments, and databases
+.env
+.env.*
+*.env
+*token*
+*credential*
+*secret*
+*.pem
+*.key
+*.pfx
+*.p12
+*.vscdb*
+*.db
+*.db-*
+*.sqlite*
+*.sql
+
+# Private copies, dumps, and archives
+*backup*
+*Backup*
+*BACKUP*
+*.bak
+*.dump
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Application and browser state
+.antigravity/
+.antigravity-ide/
+.gemini/
+.ag-session-reset.lock/
+AppData/
+User/
+globalStorage/
+workspaceStorage/
+extensions/
+brain/
+conversations/
+antigravity-browser-profile/
+antigravity-acp/
+settings.json
+keybindings.json
+Cookies
+Cookies-*
+Login Data*
+Local State
+Network/
+Local Storage/
+Session Storage/
+Cache/
+Code Cache/
+
+# Diagnostics and development artifacts
+*.log
+logs/
+*.har
+*.trace
+*.dmp
+*.png
+*.jpg
+*.jpeg
+*.webp
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+.venv/
