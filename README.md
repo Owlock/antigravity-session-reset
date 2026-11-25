@@ -1,5 +1,8 @@
 # antigravity-session-reset
 
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20me-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/owlockgta)
+[![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/owlockgta)
+
 [Español](README.es.md) · [Manual SQLite guide](docs/sqlite-manual.md) · [Anonymized Windows case](docs/case-study.es.md)
 
 A local tool and manual guide for switching Google accounts in Antigravity. Start here if the previous account reappears, sign-in loops, or the app displays Free after you select an email with an active Pro subscription. First verify which email owns the subscription at Google. Entitlements are controlled by Google.
@@ -59,5 +62,16 @@ Backups may contain reusable sign-in data. After verifying the new login and per
 ## Testing
 
 From the repository folder run `python3 -B -m unittest discover -s tests -v`. The suite builds disposable profiles, uses an in-memory vault substitute, blocks native credential access and removes its temporary directories. The Windows 3.10 and 3.12 paths exercise both cache removal callbacks. A native macOS or Linux run is still needed before claiming platform validation.
+
+## Support
+
+Everything in this repository is free and open-source. If this guide or tool saved you time or prevented wiping your local workspaces:
+
+- **Ko-fi (Cards / PayPal):** [ko-fi.com/owlockgta](https://ko-fi.com/owlockgta) *(0% platform fees)*
+- **PayPal:** [paypal.me/owlockgta](https://www.paypal.com/paypalme/owlockgta)
+- **Crypto (Binance Pay / USDT - Zero Network Fees):**
+  - **Pay ID / User ID:** `1111269376` (Receiver: `Owlock`)
+  - **Direct App Link:** [app.binance.com/uni-qr/TBFvSGNT](https://app.binance.com/uni-qr/TBFvSGNT)
+- **Colombia (Bre-B / Transfiya / Nequi):** Send a DM on [Reddit](https://www.reddit.com/user/OwlockGta/) or [Instagram](https://www.instagram.com/owlockgta/) for a direct COP transfer.
 
 Community-maintained; independent of Google. [MIT license](LICENSE).
